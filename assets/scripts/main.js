@@ -53,6 +53,7 @@ async function init() {
  * of installing it and getting it running
  */
 function initializeServiceWorker() {
+  /*
   if ('serviceWorker' in navigator) {
     window.addEventListener('load', function() {
       navigator.serviceWorker.register('/sw.js').then(function(registration) {
@@ -63,7 +64,7 @@ function initializeServiceWorker() {
         console.log('ServiceWorker registration failed: ', err);
       });
     });
-  }
+  } */
 }
 
 /**
