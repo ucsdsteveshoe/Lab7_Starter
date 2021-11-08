@@ -50,6 +50,7 @@ export class Router {
    */
   navigate(page, statePopped) {
     console.log(`navigate() function called, requested page: ${page}`);
+    console.log('Ignore this warning. This is a test to make sure GH pages work as intended.');
     /**
      * TODO - Part 1 - Step 4
      * Now, we are going to call the functions that we stored earlier based on 
