@@ -53,6 +53,7 @@ async function init() {
  * of installing it and getting it running
  */
 function initializeServiceWorker() {
+  console.log('No service workers registered');
   /*
   if ('serviceWorker' in navigator) {
     window.addEventListener('load', function() {
